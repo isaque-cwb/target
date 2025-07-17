@@ -1,0 +1,53 @@
+{
+    // Configurações da fonte JetBrains Mono
+    "editor.fontFamily": "JetBrains Mono",
+    // Demais configurações
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.compactFolders": false,
+    "workbench.editor.labelFormat": "short",
+    "material-icon-theme.activeIconPack": "nest",
+    "extensions.ignoreRecommendations": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "editor.guides.bracketPairs": true,
+    "tabnine.experimentalAutoImports": false,
+    "workbench.startupEditor": "none",
+    "editor.formatOnSave": true,
+    "workbench.editorAssociations": {
+        "*.sqlite": "default"
+    },
+    "explorer.confirmDelete": false,
+    // Define o tema do VSCode
+    "workbench.colorTheme": "Dracula Soft",
+    // Configura tamanho e família da fonte
+    "editor.fontSize": 16,
+    "editor.lineHeight": 24,
+    "editor.fontLigatures": true,
+    // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+    "editor.rulers": [
+        80,
+        120
+    ],
+    // Aplica um sinal visual na esquerda da linha selecionada
+    "editor.renderLineHighlight": "gutter",
+    // Aumenta a fonte do terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    // Define o tema dos ícones na sidebar
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "workbench.tree.indent": 20
+}
